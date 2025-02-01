@@ -1,1 +1,52 @@
-/* место для вашего кода */
+body {
+  margin: o;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  width: 1100px;
+  height: 293px;
+  left: 0;
+  top: 0;
+}
+
+.header-menu {
+
+}
+
+.header-logo {
+
+}
+
+.header-logo-image {
+
+}
+
+.header-contacts {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
