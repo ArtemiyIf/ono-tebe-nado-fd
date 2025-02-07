@@ -1,48 +1,54 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  grid-template-rows: 1fr  min-content 1fr;
-  justify-content: center;
   align-items: center;
-  box-sizing: border-box;
-  padding: 92px 50px 96px;
-  max-height: 293px;
+  padding: 92px 48px;
 }
 
-.header-logo {
-  width: 148px;
-  min-height: 10;
+.header-menu-item {
+  list-style: circle;
+  text-underline-offset: 4px;
 }
 
-.header-logo-image {
-  width: 131px;
-  height: 109px;
+/* Декор активного класса */
+.active {
+  text-decoration: none;
+  list-style: none;
+}
+
+.menu-link {
+  list-style: circle;
+  padding-right: 16px;
+  margin-right: 20px;
+  letter-spacing: 1px;
 }
 
 .header-menu-list {
   display: flex;
-  flex-direction: row;
-  f
 }
 
-.header-menu-item_no-bullet {
-  list-style-type: none;
+.header-logo-image {
+  width: 148px;
+  height: 105px;
+  margin-right: 15%
 }
 
-.menu
+.header__address {
+  display: grid;
+  justify-items: flex-end;
+  padding-right: 40px;
+}
 
 .header-contacts {
-  width: 240px;
-  height: 98px;
+  display: flex;
+  flex-direction: column;
   font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-  line-height: 1.5;
-  margin-left: 168px;
-  padding-top: 1px;
+  font-weight: 100;
+  line-height: 24px;
   font-style: normal;
   text-decoration-line: none;
   text-underline-offset: 4px;
+  align-self: flex-end;
 }
 
 .cover {
