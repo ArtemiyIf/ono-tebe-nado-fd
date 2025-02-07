@@ -91,7 +91,7 @@
 
 .aligned-text_center {
   text-align: center;
-  
+
 }
 
 .aligned-text_right {
@@ -103,11 +103,21 @@
   letter-spacing: normal;
 }
 
+.no-letter-spacing_e {
+  letter-spacing: normal;
+  margin-left: -55px;
+}
+
 .cover-description {
   position: relative;
   display: flex;
+<<<<<<< HEAD
   
   padding: 94px 50px 50px 50px;
+=======
+  justify-content: space-around;
+  padding: 106px 50px 50px 50px;
+>>>>>>> 9e83ccb99f9bcf22dfe9e687383ad7a43d528abe
 }
 
 .cover-description-text {
