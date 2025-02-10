@@ -41,14 +41,12 @@
 
 /* Стили для блока адреса в шапке */
 .header__address{
-  display: flex;
-  justify-content: center;
+  width: 240px;
+  justify-self: end;
 }
 
 /* Стили для контактов в шапке */
 .address {
-  display: flex;
-  flex-direction: column;
   font-size: 18px;
   font-weight: 100;
   line-height: 24px;
@@ -317,7 +315,7 @@ p + p {
 }
 
 /* Стили для адреса в подвале */
-.footer__address {
+/* .footer__address {
   display: flex;
   flex-direction: column;
   font-size: 18px;
@@ -328,25 +326,13 @@ p + p {
   text-underline-offset: 4px;
   align-self: flex-end;
   justify-self: center;
-}
-/* .footer__contacts{
-  display: grid;
-  justify-self: center;
-  
 } */
 
-/* Стили для контактов в подвале */
-/* .address {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  font-weight: 100;
-  line-height: 24px;
-  font-style: normal;
-  text-decoration-line: none;
-  text-underline-offset: 4px;
-  align-self: flex-end;
-} */
+.footer__address {
+  width: 264px;
+  justify-self: center;
+}
+
 
 /* Стили для меню в подвале */
 .footer__menu {
