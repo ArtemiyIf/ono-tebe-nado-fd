@@ -38,15 +38,15 @@
   margin-right: 15%;
 }
 
+
 /* Стили для блока адреса в шапке */
-.header__address {
-  display: grid;
-  justify-items: flex-end;
-  padding-right: 40px;
+.header__address{
+  display: flex;
+  justify-content: center;
 }
 
 /* Стили для контактов в шапке */
-.header__contacts {
+.address {
   display: flex;
   flex-direction: column;
   font-size: 18px;
@@ -95,14 +95,17 @@
   display: block;
   text-align: left;
   padding-top: 20px;
+  text-transform: uppercase;
 }
 
 .aligned-text_center {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .aligned-text_right {
   text-align: right;
+  text-transform: uppercase;
 }
 
 /* Убираем межбуквенное расстояние */
@@ -307,7 +310,7 @@ p + p {
 }
 
 /* Стили для подвала */
-footer {
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 82px;
@@ -315,12 +318,6 @@ footer {
 
 /* Стили для адреса в подвале */
 .footer__address {
-  display: grid;
-  justify-self: center;
-}
-
-/* Стили для контактов в подвале */
-.footer__contacts {
   display: flex;
   flex-direction: column;
   font-size: 18px;
@@ -330,8 +327,26 @@ footer {
   text-decoration-line: none;
   text-underline-offset: 4px;
   align-self: flex-end;
-  padding-right: 26px;
+  justify-self: center;
 }
+/* .footer__contacts{
+  display: grid;
+  justify-self: center;
+  
+} */
+
+/* Стили для контактов в подвале */
+/* .address {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 24px;
+  font-style: normal;
+  text-decoration-line: none;
+  text-underline-offset: 4px;
+  align-self: flex-end;
+} */
 
 /* Стили для меню в подвале */
 .footer__menu {
@@ -356,9 +371,12 @@ footer {
 
 /* Стили для элемента списка социальных сетей */
 .footer__social-list-item {
-  width: 48px;
-  height: 48px;
   margin-right: 48px;
   list-style: none;
   text-underline-offset: 4px;
+}
+
+.footer__social-link {
+  width: 48px;
+  height: 48px;
 }
