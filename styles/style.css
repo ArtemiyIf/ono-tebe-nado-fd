@@ -20,6 +20,8 @@
 
 /* Стили для ссылок в меню */
 .menu-link {
+  font-size: 16px;
+  line-height: 21px; 
   list-style: circle;
   padding-right: 16px;
   margin-right: 20px;
@@ -41,7 +43,11 @@
 
 /* Стили для блока адреса в шапке */
 .header__address{
+  /* width: 240px;
+  display: flex;
+  flex-direction: column; */
   width: 240px;
+  
   justify-self: end;
 }
 
@@ -53,7 +59,7 @@
   font-style: normal;
   text-decoration-line: none;
   text-underline-offset: 4px;
-  align-self: flex-end;
+
 }
 
 /* Стили для блока с обложкой */
@@ -233,7 +239,7 @@
 }
 
 /* Стили для ссылки "Посмотреть больше" */
-.lots__look-more-link {
+.look-more-link {
   margin-top: 33px;
   margin-left: 64px;
   font-size: 20px;
@@ -315,19 +321,6 @@ p + p {
 }
 
 /* Стили для адреса в подвале */
-/* .footer__address {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  font-weight: 100;
-  line-height: 24px;
-  font-style: normal;
-  text-decoration-line: none;
-  text-underline-offset: 4px;
-  align-self: flex-end;
-  justify-self: center;
-} */
-
 .footer__address {
   width: 264px;
   justify-self: center;
@@ -362,7 +355,8 @@ p + p {
   text-underline-offset: 4px;
 }
 
-.footer__social-link {
+/* Стили для ссылок социальных сетей */
+.footer__social-logo {
   width: 48px;
   height: 48px;
 }
