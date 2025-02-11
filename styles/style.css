@@ -20,16 +20,15 @@
 
 /* Стили для ссылок в меню */
 .menu-link {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 21px; 
   list-style: circle;
-  letter-spacing: 1px;
 }
 
 /* Стили для списка меню */
 .header-menu-list {
   display: flex;
-  gap: 36px;
+  gap: 34px;
 }
 
 /* Стили для логотипа в шапке */
@@ -53,7 +52,7 @@
   line-height: 24px;
   font-style: normal;
   text-decoration-line: none;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
 
 }
 
