@@ -43,11 +43,7 @@
 
 /* Стили для блока адреса в шапке */
 .header__address{
-  /* width: 240px;
-  display: flex;
-  flex-direction: column; */
   width: 240px;
-  
   justify-self: end;
 }
 
@@ -240,6 +236,7 @@
 
 /* Стили для ссылки "Посмотреть больше" */
 .look-more-link {
+  display: block;
   margin-top: 33px;
   margin-left: 64px;
   font-size: 20px;
